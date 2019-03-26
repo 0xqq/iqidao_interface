@@ -1,6 +1,6 @@
 # coding=utf-8
 import sys
-rootpath=str("unittesttool")
+rootpath=str("../unittesttool")
 syspath=sys.path
 sys.path=[]
 sys.path.append(rootpath)#将工程根目录加入到python搜索路径中

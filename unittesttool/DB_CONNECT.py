@@ -81,7 +81,7 @@ class DB_CONNECT:
         )
         # 获取游标
         self.cursor = connect.cursor()
-        return self.cursor
+        return self.cursor,connect
 # if __name__ =='__main__':
 #     a = DB_CONNECT(2)
 #     a.connect_db()

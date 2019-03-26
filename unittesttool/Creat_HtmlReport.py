@@ -4,7 +4,7 @@ import codecs
 import os
 import xlrd
 from unittesttool.Get_data import Getdata
-from Get_Case.Case_Table import Case_Table
+from unittesttool.Case_Table import Case_Table
 
 
 class report():

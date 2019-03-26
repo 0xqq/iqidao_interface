@@ -1,6 +1,4 @@
 # coding=utf-8
-import requests
-import os
 import sys
 rootpath=str("unittesttool")
 syspath=sys.path
@@ -19,9 +17,8 @@ from unittesttool.Get_cookies import Get_cookies
 from TC.Case_judgement import Case
 from unittesttool.Creat_HtmlReport import report
 from unittesttool.Operation_excel import oper_excel
-import xlrd
-from Get_Case.DB_Case import Get_case
-from Get_Case.Case_Table import Case_Table
+from unittesttool.DB_Case import Get_case
+from unittesttool.Case_Table import Case_Table
 class Run_case():
     # class执行前执行，且一个class只执行一次
     # @classmethod

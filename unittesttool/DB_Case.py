@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 
 # coding=utf-8
-import pymysql
 from xlwt import Workbook
 from unittesttool.DB_CONNECT import DB_CONNECT
-from Get_Case.Case_Table import Case_Table
+from unittesttool.Case_Table import Case_Table
 # pymysql.Connect()参数说明
 # host(str):      MySQL服务器地址
 # port(int):      MySQL服务器端口号

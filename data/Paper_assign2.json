@@ -1,0 +1,30 @@
+{
+    "Paper_assign2": [
+        {
+            "activityId": 814,
+            "candotime": "2019-01-22 15:13",
+            "paperId": 141322,
+            "seasonId": 957
+        },
+        {
+            "activityId": 815,
+            "candotime": "2019-01-22 15:13",
+            "paperId": 141322,
+            "seasonId": 958
+        },
+        {
+            "activityId": 811,
+            "candotime": "2019-01-22 15:13",
+            "paperId": 141322,
+            "seasonId": 954
+        },
+        {
+            "activityId": 812,
+            "candotime": "2019-01-22 15:13",
+            "paperId": 141322,
+            "seasonId": 955
+        }
+    ],
+    "rows": 5,
+    "title": "..//data"
+}

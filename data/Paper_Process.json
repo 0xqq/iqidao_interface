@@ -1,0 +1,224 @@
+{
+"creat_activity":{
+	"name":"活动-0313",
+	"type":2,
+	"category":"",
+	"signupCount":0,
+	"lowerduan":-2,
+	"upperduan":-2,
+	"price":0,
+	"userLimit":100,
+	"teacherId":18133,
+	"signupStartTime":"Start_Datime_addten",
+	"signupEndTime":"End_time",
+	"startTime":"Start_Datime_addten",
+	"endTime":"End_time",
+	"quarter":"",
+	"activityVersion":2,
+	"description":"接口测试自动化创建活动"
+},
+"edit_activity" :{
+    "ComboEndTime": 0,
+    "ComboStartTime": 0,
+    "name": "活动-0313",
+    "teacherId": 18133,
+    "category": 1,
+    "status": 1,
+    "polyvVideoId": "",
+    "quarter": "",
+    "signupStartTime": "Start_Datime_addten",
+    "signupEndTime": "End_time",
+    "startTime": "Start_Datime_addten",
+    "endTime": "End_time",
+    "userLimit": 100,
+    "remainder": 100,
+    "type": 2,
+    "price": 200.00,
+    "signupCount": 0,
+    "lowerDuan": -2,
+    "upperDuan": -2,
+    "activityVersion": 2,
+    "logo1": "",
+    "wxGroupQr": "",
+    "enableGame": "true",
+    "description": "<p>接口自动化测试修改活动</p>",
+    "enableCombo":"true",
+    "enableSignup":"true",
+    "online":"true",
+    "coupon":"true"
+},
+"get_activity_id":{
+	"key":"活动-0313"
+},
+"acadu1":{
+            "uid": 18213
+        },
+"acadu2":{
+            "uid": 39351
+        },
+"acadu3":{
+            "uid": 39352
+        },
+"add_season":{
+	"name":"接口测试创建赛季0313",
+	"price":"0.01",
+	"startTime":"Start_Datime_addten",
+	"endTime":"End_time",
+	"enableSignup":"true"
+},
+"add_course":{
+	"name":"课堂条目-接口测试0313",
+	"startTime":"Start_Datime_addten",
+	"type":0,
+	"duration":45,
+	"GameCount":"",
+	"GameDuan":"",	
+	"GameRuleId":""	
+},
+"get_paper":{
+	"returnType":1,
+	"name":"课堂条目-接口测试0313预习题",
+	"type":"",
+	"startTime":"",
+	"partial":1
+},
+"add_pre_quiz1":{
+	"quizId":64210
+},
+"add_pre_quiz2":{
+	"quizId":64211
+},
+"add_pre_quiz3":{
+	"quizId":64212
+},
+"add_pre_quiz4":{
+	"quizId":64213
+},
+"add_pre_quiz5":{
+	"quizId":64214
+},
+"add_pre_quiz6":{
+	"quizId":64215
+},
+"anwser_quiz1":{
+	"quizId": 64210,
+        "answer": "B"
+        },
+"anwser_quiz2":{
+	"quizId": 64211,
+        "answer": "B"
+        },
+"anwser_quiz3":{
+	"quizId": 64212,
+        "answer": "B"
+        },
+"anwser_quiz4":{
+	"quizId": 64213,
+        "answer": "B"
+        },
+"anwser_quiz5":{
+	"quizId": 64214,
+        "answer": "B"
+        },
+"anwser_quiz6":{
+	"quizId": 64215,
+        "answer": "A"
+        },
+"teacher_view": {
+    "paperName": "课堂条目-接口测试0313预习题",
+    "status": -1,
+    "reviewed": -1,
+    "src": -1,
+    "student":"",
+    "sortName":"",
+    "sortType":"",
+    "si":0,
+    "partial": 1,
+    "returnType": 1
+},
+"quiz_judge":{
+	"id":64213,
+        "isRight":"false"
+        },
+"paper_judge":{
+	"uid":18213,
+	"comment":"接口测试阅卷0215"	
+},
+"teacher_create_paper":{
+	"id":"",	
+	"name":"0313作业试卷",
+	"passScore":10,
+	"startTime":"Now_Datime",
+	"duration":60,
+	"totalScore":100
+},
+"teacher_getpaper_id":{
+	"returnType":1,
+	"name":"0313作业试卷",
+	"paperSrcId":6,
+	"partial":1
+},
+"paper_assign":{
+	"uid":18213,
+	"candotime":"Now_Datime"
+},
+"teacher_assignpaper_view": {
+    "paperName": "0313作业试卷",
+    "status": -1,
+    "reviewed": -1,
+    "src": 6,
+    "student":"",
+    "sortName":"",
+    "sortType":"",
+    "si":0,
+    "partial": 1,
+    "returnType": 1
+},
+"xubaoguanlian":{
+    "activityComboId":2
+},
+"xubaotime":{
+	"startTime":"Now_Datime",
+	"endTime":"End_time"
+},
+"user_cash coupon":{
+    "uid":39354,
+    "price":"99.99",
+    "status":0,
+    "startTime":"Now_Datime",
+    "endTime":"End_time"
+},
+"exclusive_cash coupon":{
+    "name":"0313接口发放",
+    "limit":100,
+    "price":"88.88",
+    "startTime":"Now_Datime",
+    "endTime":"End_time",
+    "intro":"测试代金券"
+},
+"get_cupon":{
+	"name":"0313接口发放",
+	"startTime":"",	
+	"endTime":"",	
+	"partial":1,
+	"returnType": 1
+},
+"getseasonid":{
+	"returnType": 1
+
+},
+"cupon_adduser":{
+    "uid":39354,
+    "limit":0
+},
+"groupdata": {
+    "type":2,
+    "name":"0313分组",
+    "teacherId":18133
+},
+"assign_group" : {
+    "uid":39351,
+    "uid":39352,
+    "uid":18213
+    }
+}

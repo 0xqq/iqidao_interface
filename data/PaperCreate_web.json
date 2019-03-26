@@ -1,0 +1,30 @@
+{
+    "PaperCreate_web": [
+        {
+            "duration": 100,
+            "id": "",
+            "name": "作业前台",
+            "passScore": 20,
+            "startTime": "2019-07-19 22:39",
+            "totalScore": 100
+        },
+        {
+            "duration": 100,
+            "id": "",
+            "name": "作业前台",
+            "passScore": 20,
+            "startTime": "2019-07-19 22:39'",
+            "totalScore": 100
+        },
+        {
+            "duration": 100,
+            "id": "",
+            "name": "作业前台",
+            "passScore": 20,
+            "startTime": "2019-07-19 22:39'",
+            "totalScore": 100
+        }
+    ],
+    "rows": 4,
+    "title": "C://Iqidao_all//data"
+}

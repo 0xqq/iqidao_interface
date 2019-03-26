@@ -1,0 +1,17 @@
+unittesttool文件夹下的py文件，包含了json文件、excel文件、requests请求处理等内容。
+1.Data_config:excel列管理，文件中已经指定了Test_Case文件中案例各个字段（data、id、请求方式等）所在的列号，若修改Test_Case文件的模式，此处必须随着修改。
+2.DataBase：数据库链接，此处已连接在测试库，没有做全局变量,若更改库，请到文件内修改变量值。
+3.ExcelToJson:excel文件转换中jaon文件，写此文件目的是用于批量测试。做某一个接口的批量数据插入修改时，为了方便将参数按格式放置在excel中，使用该文件转换即可。
+4.Expect_IsEqual：预期结果判断（接口返回数据或与预期值一栏的sql查询结果比较），目前主要是采用了实际值若是包含预期值，则就返回成功，属于模糊匹配。
+5.Get_data:获取Test_case案例文件中各个单元格的值，配合Data_config使用。
+6.Mock_demo:未成形接口，自己模拟返回数据（该文件代码不成形，暂时保留，以后会使用）
+7.Oper_depend_data：若存在数据依赖，则获取依赖数据（此文档目前未使用，暂时保留）
+8.Operation_datajson：json文件内容获取处理
+9.Operation_excel：excel文件内容获取处理
+10.Requestdemo:get、post请求处理
+11.Send_email：发送测试执行结果文件
+12.WebPageCheck：若返回内容为重定向某个链接，则对文件提取关键字进行检查
+13.Get_cookies：获取cookie(分为教师、学生、后台3类型)
+14.Get_global_var：excel中获取用户账号
+15.Creat_HtmlReport:将TestCase中的测试结果转换为html报告形式
+16.ParametrizedTestCase:HtmlTestRunner支持传参--目前没有使用此内容，暂时保留

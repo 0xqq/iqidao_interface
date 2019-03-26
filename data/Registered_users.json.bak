@@ -1,0 +1,20 @@
+{
+    "Registered_users": [
+        {
+            "email": "",
+            "group": 0.0,
+            "password": 111111.0,
+            "phone": 700000000002.0,
+            "realName": 700.0
+        },
+        {
+            "email": "",
+            "group": 0.0,
+            "password": 111111.0,
+            "phone": "700000000003",
+            "realName": 701.0
+        }
+    ],
+    "rows": 3,
+    "title": "C://Iqidao_all//data"
+}

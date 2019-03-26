@@ -1,0 +1,21 @@
+{
+    "AcAddUser": [
+        {
+            "activityId": 740,
+            "seasonId": 835,
+            "uid": 18300
+        },
+        {
+            "activityId": 740,
+            "seasonId": 835,
+            "uid": 18210
+        },
+        {
+            "activityId": 740,
+            "seasonId": 835,
+            "uid": 18211
+        }
+    ],
+    "rows": 4,
+    "title": "C://Iqidao_all//data"
+}

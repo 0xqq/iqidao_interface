@@ -1,0 +1,20 @@
+此文件夹下内容定义了接口请求参数的值：
+1.Tc_alldata.json\Paper_Process.json.json：Test_Case.xls\Paper_Process.xls文件中请求数据均取自该文件下，格式如下：
+{"login":{"phone": "186186","password": "222222","captcha": "666666"},
+"addpaperclass":{"name": "interface","duan": "8","code": "123123"}}，
+其中login，addpaperclass等字典名称自定义。
+2.其他.json文件目前是用于批量执行接口中使用的，格式如下：
+{
+    "CmboCreate": [
+        {
+            "comboname": "18秋I6续春寒一二（上上）送短",
+	.......
+        },
+        {
+            "comboname": "18秋I6续春寒一二（上下）送短",
+              .......
+        }
+	]
+}
+此文件是根据本文件夹下的.xls文件，通过unittesttool文件夹下的ExcelToJson.py文件转换的，用在某一接口大批量数据执行时使用的。
+备注：jenkins执行，linux环境下请确保data文件保证.json文件以uft-8格式保存；否则容易报错。

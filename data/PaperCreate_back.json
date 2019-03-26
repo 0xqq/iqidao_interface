@@ -1,0 +1,26 @@
+{
+    "PaperCreate_back": [
+        {
+            "addmistake": 1,
+            "duration": 100,
+            "id": "",
+            "name": "zjy_ceshi1",
+            "passScore": 10,
+            "src": 6,
+            "startTime": "",
+            "totalScore": 100
+        },
+        {
+            "addmistake": 1,
+            "duration": 100,
+            "id": "",
+            "name": "zjy_ceshi2",
+            "passScore": 20,
+            "src": 2,
+            "startTime": "",
+            "totalScore": 100
+        }
+    ],
+    "rows": 3,
+    "title": "C://Iqidao_all//data"
+}

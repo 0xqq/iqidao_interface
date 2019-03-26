@@ -1,6 +1,6 @@
 {
 "creat_activity":{
-	"name":"»î¶¯-0313",
+	"name":"æ´»åŠ¨-0313",
 	"type":2,
 	"category":"",
 	"signupCount":0,
@@ -15,12 +15,12 @@
 	"endTime":"End_time",
 	"quarter":"",
 	"activityVersion":2,
-	"description":"½Ó¿Ú²âÊÔ×Ô¶¯»¯´´½¨»î¶¯"
+	"description":"æ¥å£æµ‹è¯•è‡ªåŠ¨åŒ–åˆ›å»ºæ´»åŠ¨"
 },
 "edit_activity" :{
     "ComboEndTime": 0,
     "ComboStartTime": 0,
-    "name": "»î¶¯-0313",
+    "name": "æ´»åŠ¨-0313",
     "teacherId": 18133,
     "category": 1,
     "status": 1,
@@ -41,14 +41,14 @@
     "logo1": "",
     "wxGroupQr": "",
     "enableGame": "true",
-    "description": "<p>½Ó¿Ú×Ô¶¯»¯²âÊÔĞŞ¸Ä»î¶¯</p>",
+    "description": "<p>æ¥å£è‡ªåŠ¨åŒ–æµ‹è¯•ä¿®æ”¹æ´»åŠ¨</p>",
     "enableCombo":"true",
     "enableSignup":"true",
     "online":"true",
     "coupon":"true"
 },
 "get_activity_id":{
-	"key":"»î¶¯-0313"
+	"key":"æ´»åŠ¨-0313"
 },
 "acadu1":{
             "uid": 18213
@@ -60,14 +60,14 @@
             "uid": 39352
         },
 "add_season":{
-	"name":"½Ó¿Ú²âÊÔ´´½¨Èü¼¾0313",
+	"name":"æ¥å£æµ‹è¯•åˆ›å»ºèµ›å­£0313",
 	"price":"0.01",
 	"startTime":"Start_Datime_addten",
 	"endTime":"End_time",
 	"enableSignup":"true"
 },
 "add_course":{
-	"name":"¿ÎÌÃÌõÄ¿-½Ó¿Ú²âÊÔ0313",
+	"name":"è¯¾å ‚æ¡ç›®-æ¥å£æµ‹è¯•0313",
 	"startTime":"Start_Datime_addten",
 	"type":0,
 	"duration":45,
@@ -77,7 +77,7 @@
 },
 "get_paper":{
 	"returnType":1,
-	"name":"¿ÎÌÃÌõÄ¿-½Ó¿Ú²âÊÔ0313Ô¤Ï°Ìâ",
+	"name":"è¯¾å ‚æ¡ç›®-æ¥å£æµ‹è¯•0313é¢„ä¹ é¢˜",
 	"type":"",
 	"startTime":"",
 	"partial":1
@@ -125,7 +125,7 @@
         "answer": "A"
         },
 "teacher_view": {
-    "paperName": "¿ÎÌÃÌõÄ¿-½Ó¿Ú²âÊÔ0313Ô¤Ï°Ìâ",
+    "paperName": "è¯¾å ‚æ¡ç›®-æ¥å£æµ‹è¯•0313é¢„ä¹ é¢˜",
     "status": -1,
     "reviewed": -1,
     "src": -1,
@@ -142,11 +142,11 @@
         },
 "paper_judge":{
 	"uid":18213,
-	"comment":"½Ó¿Ú²âÊÔÔÄ¾í0215"	
+	"comment":"æ¥å£æµ‹è¯•é˜…å·0215"	
 },
 "teacher_create_paper":{
 	"id":"",	
-	"name":"0313×÷ÒµÊÔ¾í",
+	"name":"0313ä½œä¸šè¯•å·",
 	"passScore":10,
 	"startTime":"Now_Datime",
 	"duration":60,
@@ -154,7 +154,7 @@
 },
 "teacher_getpaper_id":{
 	"returnType":1,
-	"name":"0313×÷ÒµÊÔ¾í",
+	"name":"0313ä½œä¸šè¯•å·",
 	"paperSrcId":6,
 	"partial":1
 },
@@ -163,7 +163,7 @@
 	"candotime":"Now_Datime"
 },
 "teacher_assignpaper_view": {
-    "paperName": "0313×÷ÒµÊÔ¾í",
+    "paperName": "0313ä½œä¸šè¯•å·",
     "status": -1,
     "reviewed": -1,
     "src": 6,
@@ -189,15 +189,15 @@
     "endTime":"End_time"
 },
 "exclusive_cash coupon":{
-    "name":"0313½Ó¿Ú·¢·Å",
+    "name":"0313æ¥å£å‘æ”¾",
     "limit":100,
     "price":"88.88",
     "startTime":"Now_Datime",
     "endTime":"End_time",
-    "intro":"²âÊÔ´ú½ğÈ¯"
+    "intro":"æµ‹è¯•ä»£é‡‘åˆ¸"
 },
 "get_cupon":{
-	"name":"0313½Ó¿Ú·¢·Å",
+	"name":"0313æ¥å£å‘æ”¾",
 	"startTime":"",	
 	"endTime":"",	
 	"partial":1,
@@ -213,7 +213,7 @@
 },
 "groupdata": {
     "type":2,
-    "name":"0313·Ö×é",
+    "name":"0313åˆ†ç»„",
     "teacherId":18133
 },
 "assign_group" : {

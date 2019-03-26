@@ -1,5 +1,5 @@
 Test_Case文件下文件为测试案例文件：
-1.Paper_Process.xls：测试案例文件（系统业务案例统一管理在此处，TestCas.xls也存在业务案例），文件使用说明：
+1.Paper_Process.xls：测试案例文件（系统业务案例统一管理在此处，TestCas.xls也存在业务案例----逻辑改动，xls文件来自数据库案例表中的数据），文件使用说明：
 (1).id:根据功能自定义
 (2).功能模块：自定义
 (3).web or admin:记录案例操作所属权限，用来获取不同的cookies（web：1-学生，2-教师    0-admin）

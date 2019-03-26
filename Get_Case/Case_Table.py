@@ -6,16 +6,19 @@ class Case_Table:
     def __init__(self):
     # 连接数据库
         cursor = DB_CONNECT(2)
-        self.cursor = cursor.connect_db()
+        self.cursor,self.connect = cursor.connect_db()
     def get_tablename(self):
     # 获取需要运行的案例的表明
         select_table = "select table_name from Case_Mangement where Run ='Y' order by id asc limit 1"
         try:
             self.cursor.execute(select_table)
             table = self.cursor.fetchall()
-            return table[0].get("table_name")
         except Exception as  e:
-            print("sql执行有误",e)
+            print("查询业务案例表名sql执行有误",e)
+        else:
+            print("需要执行的案例表名为",table[0].get("table_name"))
+            self.connect.close()
+            return table[0].get("table_name")
 # a = Case_Table()
 # c = a.get_tablename()
 # print(c)

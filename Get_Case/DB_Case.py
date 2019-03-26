@@ -31,7 +31,7 @@ class Get_case():
         # 连接数据库
         # 获取游标
         cursor = DB_CONNECT(2)
-        self.cursor = cursor.connect_db()
+        self.cursor,self.connect = cursor.connect_db()
         self.tablename = Case_Table().get_tablename()
         self.caseexcel ="..//Test_Case//"+self.tablename+".xls"
     # 获取需要执行的案例编号
@@ -66,25 +66,26 @@ class Get_case():
             sql = "select COLUMN_NAME from information_schema.COLUMNS where table_name = %s"
             self.cursor.execute(sql,self.tablename)
         except Exception as  e:
-            print("sql查询有误", e)
-        key_name = self.cursor.fetchall()
-        field_names = []
-        for i in range(len(key_name)):
-            field_names.append(key_name[i].get("COLUMN_NAME"))
-        #新建一个案例存储excel表格
-        book = Workbook(encoding='utf-8')
-        booksheet = book.add_sheet('Sheet 1')
-        # 表格填写表头
-        for i in range(len(field_names)):
-            booksheet.write(0,i,field_names[i])
-        # 执行案例的相关数据获取
-        content = self.get_case_content()
-        # 逐个案例获取
-        for i in range(len(content)):
-            case_order = content[i]
-            for j in range(len(list(case_order.values()))):
-                # 第i行第j列输入
-                booksheet.write(i+1, j,list(case_order.values())[j])
-        book.save(self.caseexcel)
+            print("查询",self.tablename,"表的案例详情sql执行有误", e)
+        else:
+            key_name = self.cursor.fetchall()
+            field_names = []
+            for i in range(len(key_name)):
+                field_names.append(key_name[i].get("COLUMN_NAME"))
+            #新建一个案例存储excel表格
+            book = Workbook(encoding='utf-8')
+            booksheet = book.add_sheet('Sheet 1')
+            # 表格填写表头
+            for i in range(len(field_names)):
+                booksheet.write(0,i,field_names[i])
+            # 执行案例的相关数据获取
+            content = self.get_case_content()
+            # 逐个案例获取
+            for i in range(len(content)):
+                case_order = content[i]
+                for j in range(len(list(case_order.values()))):
+                    # 第i行第j列输入
+                    booksheet.write(i+1, j,list(case_order.values())[j])
+            book.save(self.caseexcel)
 # a = Get_case()
 # a.create_excel()
